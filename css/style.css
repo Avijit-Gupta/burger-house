@@ -50,6 +50,10 @@ ul li a{
     color: #3D2514;
 }
 
+nav .fa{
+    display: none;
+}
+
 .inner{
     max-width: 1200px;
     margin: 0 auto;
@@ -380,6 +384,25 @@ ul li a{
 /* media query start here */
 
 @media(max-width:768px){
+
+    nav ul{
+        display: none;
+        margin-top: 3rem;
+        display: block;
+    }
+
+    nav .fa{
+        display: block;
+        margin-left: 1rem;
+        color: #3D2514;
+        font-size: 1.8rem;
+        
+    }
+nav .fa:hover{
+    color: gray;
+    cursor: pointer;
+    
+}
     .left{
         width: 100%;
         text-align: center;
