@@ -382,3 +382,84 @@ textarea{
     color: #ffc045;
     letter-spacing: 0.2rem;
 }
+
+
+/* media query start here */
+
+@media(max-width:768px){
+    .left{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .left p{
+       font-size: 0.8rem;
+    }
+    
+    .left h1{
+        font-size: 3rem;
+    }
+    
+    .left h3{
+        font-size: 1rem;
+    }
+    
+    .right{
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    .right img{
+        width: 50%;
+    
+    }
+
+    .image-1{
+        width: 100%;
+    }
+
+    .image-2{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .order{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .sec-1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec-2{
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .contact{
+        margin-bottom: 2rem;
+    }
+
+    .logo-2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .location{
+        width: 100%;
+        margin-top:0;
+        text-align: center;
+    }
+
+    .copy p{
+        text-align: center;
+    }
+
+    .social{
+        width: 100%;
+        text-align: center;
+    }
+}
