@@ -310,25 +310,18 @@ ul li a{
     margin-top: 1rem;
 }
 
-textarea{
-    width: 100%;
-    margin-top: 2rem;
-    padding: 0.5rem;
-}
-
 .find-table{
-    width: 48%;
-    height: 40px;
-    /* padding: 1rem; */
+   width: 48%;
+   height: 35px;
+   margin-top: 1rem;
     font-size: 1.3rem;
     font-weight: 400;
     letter-spacing: 0.4rem;
     color: #ffffff;
     background-color: #bf2222;
     border: 0;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 5px;
-    margin-top: 2rem;
 
 }
 
@@ -397,11 +390,11 @@ textarea{
     }
     
     .left h1{
-        font-size: 3rem;
+        font-size: 4rem;
     }
     
     .left h3{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     
     .right{
@@ -411,7 +404,7 @@ textarea{
     }
     
     .right img{
-        width: 50%;
+        width: 65%;
     
     }
 
@@ -441,6 +434,16 @@ textarea{
 
     .contact{
         margin-bottom: 2rem;
+    }
+
+    .width input{
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .find-table{
+        width: 100%;
     }
 
     .logo-2{
