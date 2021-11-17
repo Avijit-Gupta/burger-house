@@ -48,6 +48,7 @@ margin-left: 1rem;
 ul li a{
     text-decoration: none;
     color: #3D2514;
+    font-size: 1.2rem;
 }
 
 nav .fa{
@@ -73,7 +74,7 @@ nav .fa{
 .left p{
     display: inline-block;
     border: 1px dashed #3D2514;
-    margin-top: 3rem;
+    margin-top: 2rem;
     color: #3D2514;
     padding: 0.6rem;
 }
@@ -98,18 +99,16 @@ nav .fa{
 
 .right{
     width: 45%;
-    text-align: center;
+   
 }
 
 .right img{
-    width: 70%;
-    margin: 0;
-    padding: 0;
+    width: 100%;
 }
 
 .image-1{
     width: 48%;
-    height: 50vh;
+    height: 70vh;
     background-image: url(../image/img01.jpg);
     background-size: cover;
     background-position: center;
@@ -131,6 +130,7 @@ nav .fa{
 
 .image-2{
    width: 48%;
+   height:70vh;
   
 }
 
@@ -159,6 +159,7 @@ nav .fa{
 .img-down{
     width: 100%;
     background-image: url(../image/img03.jpg); background-size: cover;
+    background-size: cover;
     background-position: center;
     border-radius: 10px;
     margin-top: 2rem;
@@ -203,6 +204,11 @@ nav .fa{
 
 }
 
+.sec-one p{
+    color: gray;
+    text-transform: lowercase;
+}
+
 /* order start */
 
 .order{
@@ -213,6 +219,10 @@ nav .fa{
 
 .order h1{
     margin: 1rem 0;
+}
+
+.order p{
+    color: gray;
 }
 
 .order img{
@@ -333,7 +343,7 @@ nav .fa{
 
 .footer{
     background-image: url(../image/footer.jpg);
-    background-position: center;
+    background-position: center bottom;
     background-size: cover;
     color: #ffffff;
     text-align: center;
@@ -351,6 +361,7 @@ nav .fa{
     font-size: 1rem;
     line-height: 1.8rem;
     margin: 2rem 0;
+    color: gray;
 }
 
 .location{
@@ -365,13 +376,15 @@ nav .fa{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 3rem;
+    color: rgb(190, 189, 189);
 }
 
 .fa{
     margin-left: 1.5rem;
-    font-size: 1.3rem;
-    color: #ffffff;
-    margin-top: 1rem;
+    font-size: 1.4rem;
+    margin-top: 0.7rem;
+    border-radius: 50px;
+    padding: 0.5rem;
 }
 
 .copy a{
